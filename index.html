@@ -10,23 +10,31 @@
       src="https://kit.fontawesome.com/cf2a189f0a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
     <div class="container">
       <div class="sidebar">
-        <h1>
-          <svg style="width: 24px; height: 24px" viewBox="0 0 24 24">
+        <h1 id="title">
+          <svg style="width: 36px; height: 36px" viewBox="0 0 24 24" class="m-10">
             <path
               fill="currentColor"
               d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z"
-            /></svg>Dashboard
+              /></svg>Dashboard
         </h1>
-        <h3><i class="fa-solid fa-house"></i>Home</h3>
-        <h3><i class="fa-solid fa-address-card"></i>Profile</h3>
-        <h3><i class="fa-solid fa-message"></i>Messages</h3>
-        <h3><i class="fa-solid fa-clock"></i>History</h3>
-        <h3><i class="fa-solid fa-list-check"></i>Tasks</h3>
-        <h3><i class="fa-solid fa-users"></i>Communities</h3>
+        <ul class="sidebar-items">
+          <li><i class="fa-solid fa-house m-20"></i>Home</li>
+          <li><i class="fa-solid fa-address-card m-20"></i>Profile</li>
+          <li><i class="fa-solid fa-message m-20"></i>Messages</li>
+          <li><i class="fa-solid fa-clock m-20"></i>History</li>
+          <li><i class="fa-solid fa-list-check m-20"></i>Tasks</li>
+          <li><i class="fa-solid fa-users m-20"></i>Communities</li>
+          <br class="sidebar-divider">
+          <li><i class="fa-solid fa-gear m-20"></i>Settings</li>
+          <li><span class="material-symbols-outlined m-20">help_center</span>Support</li>
+          <li><span class="material-symbols-outlined m-20">verified_user</span>Privacy</li>
+          
+        </ul>
       </div>
       <nav class="navbar">
         <ul class="navbar-items">
@@ -51,8 +59,15 @@
             <img src="profile-picture.png" alt="profile-picture" class="profile-picture"/>
             <p>Lucas Gotz</p>
           </li>
+          <li><img src="profile-picture.png" alt=""profile-picture class="profile-picture-2"></li>
           <li class="nav-item">
+            <p>Hi there,</p>
+            <h6>Lucas Gotz</h6>
           </li>
+        </ul>
+      </nav>
+      <nav class="secondary-navbar">
+        <ul class="secondary-navbar-items">
         </ul>
       </nav>
     </div>
