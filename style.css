@@ -106,6 +106,36 @@
     margin-left: 20px;
 }
 
+.nav-item {
+    margin-left: 20px;
+}
+
 .nav-item > h6 {
     font-size: 20pt;
+}
+
+.nav-buttons {
+    padding: 12px 40px;
+    border-radius: 20px;
+    background-color: #0d9488;
+    border-style: none;
+    color: white;
+    font-weight: bold;
+}
+
+.secondary-navbar {
+    grid-column: 1 / 5;
+    display: flex;
+    align-items: center;
+}
+.button {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px
+}
+
+button > span {
+    font-size: 12pt;
+    font-weight: bold;
 }
